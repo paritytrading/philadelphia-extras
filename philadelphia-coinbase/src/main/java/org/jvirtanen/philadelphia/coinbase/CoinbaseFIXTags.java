@@ -1,13 +1,11 @@
 package org.jvirtanen.philadelphia.coinbase;
 
-import org.jvirtanen.philadelphia.fix44.FIX44Tags;
-
 /**
  * Tags for Coinbase Exchange FIX API.
  */
 public class CoinbaseFIXTags {
 
-    public static final int Password            = FIX44Tags.Password;
+    public static final int Password            = 554;
     public static final int SelfTradePrevention = 7928;
 
 }
