@@ -5,7 +5,7 @@ package org.jvirtanen.philadelphia.coinbase;
  */
 public class CoinbaseFIXTags {
 
-    public static final int Password            = 554;
+    public static final int Password            =  554;
     public static final int SelfTradePrevention = 7928;
 
 }
