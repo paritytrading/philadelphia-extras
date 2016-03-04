@@ -38,6 +38,7 @@
 
   <modules>
     <module>philadelphia-coinbase</module>
+    <module>philadelphia-iex</module>
   </modules>
 
   <dependencyManagement>
