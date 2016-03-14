@@ -5,7 +5,7 @@ Philadelphia Extras contains additional FIX dialects for [Philadelphia][].
 
   [Philadelphia]: https://github.com/jvirtanen/philadelphia
 
-Philadelphia Extras requires Java Runtime Environment (JRE) 7 or newer.
+Philadelphia Extras requires Java Runtime Environment (JRE) 8 or newer.
 
 
 Features
