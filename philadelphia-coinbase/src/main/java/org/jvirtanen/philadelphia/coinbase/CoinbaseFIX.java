@@ -8,9 +8,9 @@ import static org.jvirtanen.philadelphia.fix42.FIX42Tags.*;
 import java.security.InvalidKeyException;
 import java.security.Key;
 import java.security.NoSuchAlgorithmException;
+import java.util.Base64;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
-import org.apache.commons.codec.binary.Base64;
 import org.jvirtanen.philadelphia.FIXMessage;
 import org.jvirtanen.philadelphia.FIXValue;
 
@@ -47,7 +47,7 @@ public class CoinbaseFIX {
         presign.append(SOH);
         appendField(message, Password, "Password(554)", presign);
 
-        Key key = new SecretKeySpec(Base64.decodeBase64(secret), "HmacSHA256");
+        Key key = new SecretKeySpec(Base64.getDecoder().decode(secret), "HmacSHA256");
 
         try {
             Mac mac = Mac.getInstance("HmacSHA256");
@@ -55,7 +55,7 @@ public class CoinbaseFIX {
             mac.init(key);
             mac.update(presign.toString().getBytes(US_ASCII));
 
-            String sign = Base64.encodeBase64String(mac.doFinal());
+            String sign = Base64.getEncoder().encodeToString(mac.doFinal());
 
             message.addField(RawData).setString(sign);
         } catch (InvalidKeyException | NoSuchAlgorithmException e) {
