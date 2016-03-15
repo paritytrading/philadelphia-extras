@@ -11,7 +11,7 @@
 
   <groupId>org.jvirtanen.philadelphia</groupId>
   <artifactId>philadelphia-extras-parent</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Philadelphia Extras (Parent)</name>
@@ -29,7 +29,7 @@
     <connection>scm:git:git@github.com:jvirtanen/philadelphia-extras.git</connection>
     <developerConnection>scm:git:git@github.com:jvirtanen/philadelphia-extras.git</developerConnection>
     <url>https://github.com/jvirtanen/philadelphia-extras</url>
-    <tag>0.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
