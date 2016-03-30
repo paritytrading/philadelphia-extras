@@ -23,7 +23,7 @@ Download
 Add a Maven dependency to Philadelphia Coinbase:
 
     <dependency>
-      <groupId>org.jvirtanen.philadelphia</groupId>
+      <groupId>com.paritytrading.philadelphia</groupId>
       <artifactId>philadelphia-coinbase</artifactId>
       <version><!-- latest version --></version>
     </dependency>

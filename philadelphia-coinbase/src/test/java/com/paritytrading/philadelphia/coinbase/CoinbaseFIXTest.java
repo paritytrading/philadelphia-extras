@@ -1,9 +1,9 @@
-package org.jvirtanen.philadelphia.coinbase;
+package com.paritytrading.philadelphia.coinbase;
 
+import static com.paritytrading.philadelphia.coinbase.CoinbaseFIXTags.*;
 import static com.paritytrading.philadelphia.fix42.FIX42Enumerations.*;
 import static com.paritytrading.philadelphia.fix42.FIX42Tags.*;
 import static org.junit.Assert.*;
-import static org.jvirtanen.philadelphia.coinbase.CoinbaseFIXTags.*;
 
 import com.paritytrading.philadelphia.FIXMessage;
 import org.junit.Before;

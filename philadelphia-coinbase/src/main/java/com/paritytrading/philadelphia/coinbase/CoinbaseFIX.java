@@ -1,9 +1,9 @@
-package org.jvirtanen.philadelphia.coinbase;
+package com.paritytrading.philadelphia.coinbase;
 
+import static com.paritytrading.philadelphia.coinbase.CoinbaseFIXTags.*;
 import static com.paritytrading.philadelphia.fix42.FIX42MsgTypes.*;
 import static com.paritytrading.philadelphia.fix42.FIX42Tags.*;
 import static java.nio.charset.StandardCharsets.*;
-import static org.jvirtanen.philadelphia.coinbase.CoinbaseFIXTags.*;
 
 import com.paritytrading.philadelphia.FIXMessage;
 import com.paritytrading.philadelphia.FIXValue;

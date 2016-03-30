@@ -22,7 +22,7 @@ Download
 Add a Maven dependency to Philadelphia IEX:
 
     <dependency>
-      <groupId>org.jvirtanen.philadelphia</groupId>
+      <groupId>com.paritytrading.philadelphia</groupId>
       <artifactId>philadelphia-iex</artifactId>
       <version><!-- latest version --></version>
     </dependency>

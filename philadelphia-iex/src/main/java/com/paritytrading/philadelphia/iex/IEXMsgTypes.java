@@ -1,4 +1,4 @@
-package org.jvirtanen.philadelphia.iex;
+package com.paritytrading.philadelphia.iex;
 
 /**
  * Message types for IEX FIX 2.3.

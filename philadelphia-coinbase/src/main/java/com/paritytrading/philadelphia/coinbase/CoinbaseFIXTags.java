@@ -1,4 +1,4 @@
-package org.jvirtanen.philadelphia.coinbase;
+package com.paritytrading.philadelphia.coinbase;
 
 /**
  * Tags for Coinbase Exchange FIX API.
