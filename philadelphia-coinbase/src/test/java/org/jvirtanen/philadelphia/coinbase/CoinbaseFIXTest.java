@@ -1,13 +1,13 @@
 package org.jvirtanen.philadelphia.coinbase;
 
+import static com.paritytrading.philadelphia.fix42.FIX42Enumerations.*;
+import static com.paritytrading.philadelphia.fix42.FIX42Tags.*;
 import static org.junit.Assert.*;
 import static org.jvirtanen.philadelphia.coinbase.CoinbaseFIXTags.*;
-import static org.jvirtanen.philadelphia.fix42.FIX42Enumerations.*;
-import static org.jvirtanen.philadelphia.fix42.FIX42Tags.*;
 
+import com.paritytrading.philadelphia.FIXMessage;
 import org.junit.Before;
 import org.junit.Test;
-import org.jvirtanen.philadelphia.FIXMessage;
 
 public class CoinbaseFIXTest {
 

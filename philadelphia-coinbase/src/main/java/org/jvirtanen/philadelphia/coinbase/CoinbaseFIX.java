@@ -1,18 +1,18 @@
 package org.jvirtanen.philadelphia.coinbase;
 
+import static com.paritytrading.philadelphia.fix42.FIX42MsgTypes.*;
+import static com.paritytrading.philadelphia.fix42.FIX42Tags.*;
 import static java.nio.charset.StandardCharsets.*;
 import static org.jvirtanen.philadelphia.coinbase.CoinbaseFIXTags.*;
-import static org.jvirtanen.philadelphia.fix42.FIX42MsgTypes.*;
-import static org.jvirtanen.philadelphia.fix42.FIX42Tags.*;
 
+import com.paritytrading.philadelphia.FIXMessage;
+import com.paritytrading.philadelphia.FIXValue;
 import java.security.InvalidKeyException;
 import java.security.Key;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
-import org.jvirtanen.philadelphia.FIXMessage;
-import org.jvirtanen.philadelphia.FIXValue;
 
 /**
  * Common definitions for Coinbase Exchange FIX API.

@@ -15,13 +15,13 @@
 
   <dependencies>
     <dependency>
+      <groupId>com.paritytrading.philadelphia</groupId>
+      <artifactId>philadelphia</artifactId>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jvirtanen.philadelphia</groupId>
-      <artifactId>philadelphia</artifactId>
     </dependency>
   </dependencies>
 
