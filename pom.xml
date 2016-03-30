@@ -9,14 +9,14 @@
     <version>7</version>
   </parent>
 
-  <groupId>org.jvirtanen.philadelphia</groupId>
+  <groupId>com.paritytrading.philadelphia</groupId>
   <artifactId>philadelphia-extras-parent</artifactId>
   <version>0.1.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Philadelphia Extras (Parent)</name>
   <description>Additional FIX dialects for Philadelphia.</description>
-  <url>https://github.com/jvirtanen/philadelphia-extras</url>
+  <url>https://github.com/paritytrading/philadelphia-extras</url>
 
   <licenses>
     <license>
@@ -26,9 +26,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:jvirtanen/philadelphia-extras.git</connection>
-    <developerConnection>scm:git:git@github.com:jvirtanen/philadelphia-extras.git</developerConnection>
-    <url>https://github.com/jvirtanen/philadelphia-extras</url>
+    <connection>scm:git:git@github.com:paritytrading/philadelphia-extras.git</connection>
+    <developerConnection>scm:git:git@github.com:paritytrading/philadelphia-extras.git</developerConnection>
+    <url>https://github.com/paritytrading/philadelphia-extras</url>
     <tag>HEAD</tag>
   </scm>
 

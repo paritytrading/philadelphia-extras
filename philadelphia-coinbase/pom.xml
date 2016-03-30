@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.jvirtanen.philadelphia</groupId>
+    <groupId>com.paritytrading.philadelphia</groupId>
     <artifactId>philadelphia-extras-parent</artifactId>
     <version>0.1.1-SNAPSHOT</version>
   </parent>
