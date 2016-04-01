@@ -17,6 +17,17 @@ Philadelphia Extras implements connectivity to the following trading venues:
   - [**IEX**](philadelphia-iex)
 
 
+Links
+-----
+
+For more information about Philadelphia Extras:
+
+  - Follow [@paritytrading](https://twitter.com/paritytrading) on Twitter for
+    news and announcements
+  - Join [paritytrading/chat](https://gitter.im/paritytrading/chat) on Gitter
+    for discussions
+
+
 License
 -------
 
