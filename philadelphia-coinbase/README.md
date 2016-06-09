@@ -9,7 +9,7 @@ Features
 
 Philadelphia Coinbase implements the following protocol:
 
-  - **Coinbase Exchange FIX API**
+- **Coinbase Exchange FIX API**
 
 See the [developer documentation][] at Coinbase Exchange for the protocol
 specification.
