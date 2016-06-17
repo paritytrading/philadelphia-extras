@@ -13,7 +13,7 @@ Features
 
 Philadelphia Extras implements connectivity to the following trading venues:
 
-- [**Coinbase Exchange**](philadelphia-coinbase)
+- [**GDAX**](philadelphia-gdax)
 - [**IEX**](philadelphia-iex)
 
 

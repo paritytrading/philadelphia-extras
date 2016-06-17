@@ -45,7 +45,7 @@
   </properties>
 
   <modules>
-    <module>philadelphia-coinbase</module>
+    <module>philadelphia-gdax</module>
     <module>philadelphia-iex</module>
   </modules>
 
