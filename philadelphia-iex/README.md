@@ -1,7 +1,7 @@
 Philadelphia IEX
 ================
 
-Philadelphia IEX implements connectivity to IEX.
+Philadelphia IEX implements connectivity to [IEX](https://iextrading.com).
 
 
 Features
