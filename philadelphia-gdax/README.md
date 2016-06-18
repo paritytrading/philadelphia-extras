@@ -1,7 +1,7 @@
 Philadelphia GDAX
 =================
 
-Philadelphia GDAX implements connectivity to GDAX.
+Philadelphia GDAX implements connectivity to [GDAX](https://gdax.com).
 
 
 Features
