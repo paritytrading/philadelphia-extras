@@ -9,7 +9,7 @@ Features
 
 Philadelphia GDAX implements the following protocol:
 
-- **GDAX FIX API**
+- **GDAX FIX API** (based on **FIX 4.2**)
 
 See the [developer documentation][] at GDAX for the protocol specification.
 

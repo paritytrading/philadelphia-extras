@@ -9,7 +9,7 @@ Features
 
 Philadelphia IEX implements the following protocol:
 
-- **IEX FIX 2.3**
+- **IEX FIX 2.3** (based on **FIX 4.2**)
 
 See the [documentation][] at IEX for the protocol specification.
 
