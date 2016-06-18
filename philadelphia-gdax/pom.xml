@@ -9,9 +9,9 @@
     <version>0.2.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>philadelphia-coinbase</artifactId>
+  <artifactId>philadelphia-gdax</artifactId>
 
-  <name>Philadelphia Coinbase</name>
+  <name>Philadelphia GDAX</name>
 
   <dependencies>
     <dependency>
