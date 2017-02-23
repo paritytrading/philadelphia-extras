@@ -18,11 +18,17 @@ See the [documentation][] at Bats Hotspot for the protocol specification.
 
 Add a Maven dependency to Philadelphia GDAX:
 
-    <dependency>
-      <groupId>com.paritytrading.philadelphia</groupId>
-      <artifactId>philadelphia-hotspot</artifactId>
-      <version><!-- latest version --></version>
-    </dependency>
+```xml
+<dependency>
+  <groupId>com.paritytrading.philadelphia</groupId>
+  <artifactId>philadelphia-hotspot</artifactId>
+  <version><!-- latest release --></version>
+</dependency>
+```
+
+See the [latest release][] on GitHub.
+
+  [latest release]: https://github.com/paritytrading/philadelphia-extras/releases/latest
 
 ## License
 
