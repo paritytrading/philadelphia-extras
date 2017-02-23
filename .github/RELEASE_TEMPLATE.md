@@ -6,8 +6,10 @@
 
 The following artifacts are available in the Central Repository:
 
-Name                      | Group ID                         | Artifact ID            | Version
---------------------------|----------------------------------|------------------------|--------
-Philadelphia Bats Hotspot | `com.paritytrading.philadelphia` | `philadelphia-hotspot` | `...`
-Philadelphia GDAX         | `com.paritytrading.philadelphia` | `philadelphia-gdax`    | `...`
-Philadelphia IEX          | `com.paritytrading.philadelphia` | `philadelpia-iex`      | `...`
+Name                      | Artifact ID            | Version
+--------------------------|------------------------|--------
+Philadelphia Bats Hotspot | `philadelphia-hotspot` | `...`
+Philadelphia GDAX         | `philadelphia-gdax`    | `...`
+Philadelphia IEX          | `philadelpia-iex`      | `...`
+
+The **Group ID** for all artifacts is `com.paritytrading.philadelphia`.
