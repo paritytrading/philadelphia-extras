@@ -7,6 +7,7 @@
     <groupId>com.paritytrading.philadelphia</groupId>
     <artifactId>philadelphia-extras-parent</artifactId>
     <version>0.2.1-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <artifactId>philadelphia-iex</artifactId>

@@ -15,7 +15,7 @@ Philadelphia Extras implements connectivity to the following trading venues:
 
 - [**Bats Hotspot**](libraries/hotspot)
 - [**GDAX**](libraries/gdax)
-- [**IEX**](philadelphia-iex)
+- [**IEX**](libraries/iex)
 
 
 Links
