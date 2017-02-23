@@ -1,13 +1,10 @@
-Philadelphia Hotspot
-====================
+# Philadelphia Hotspot
 
 Philadelphia Hotspot implements connectivity to [Bats Hotspot][].
 
   [Bats Hotspot]: http://hotspotfx.com
 
-
-Features
---------
+## Features
 
 Philadelphia Hotspot implements the following protocol:
 
@@ -17,9 +14,7 @@ See the [documentation][] at Bats Hotspot for the protocol specification.
 
   [documentation]: http://hotspotfx.com/technology/apifix.jsp
 
-
-Download
---------
+## Download
 
 Add a Maven dependency to Philadelphia GDAX:
 
@@ -29,8 +24,6 @@ Add a Maven dependency to Philadelphia GDAX:
       <version><!-- latest version --></version>
     </dependency>
 
-
-License
--------
+## License
 
 Released under the Apache License, Version 2.0.

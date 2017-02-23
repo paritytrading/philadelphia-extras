@@ -1,5 +1,4 @@
-Philadelphia Extras
-===================
+# Philadelphia Extras
 
 Philadelphia Extras contains additional FIX dialects for [Philadelphia][].
 
@@ -7,9 +6,7 @@ Philadelphia Extras contains additional FIX dialects for [Philadelphia][].
 
 Philadelphia Extras requires Java Runtime Environment (JRE) 8 or newer.
 
-
-Features
---------
+## Features
 
 Philadelphia Extras implements connectivity to the following trading venues:
 
@@ -17,9 +14,7 @@ Philadelphia Extras implements connectivity to the following trading venues:
 - [**GDAX**](libraries/gdax)
 - [**IEX**](libraries/iex)
 
-
-Links
------
+## Links
 
 For more information about Philadelphia Extras:
 
@@ -30,9 +25,7 @@ For more information about Philadelphia Extras:
 - Join [paritytrading/chat](https://gitter.im/paritytrading/chat) on Gitter
   for discussions
 
-
-License
--------
+## License
 
 Copyright 2016 Jussi Virtanen.
 

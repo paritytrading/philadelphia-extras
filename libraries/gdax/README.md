@@ -1,11 +1,8 @@
-Philadelphia GDAX
-=================
+# Philadelphia GDAX
 
 Philadelphia GDAX implements connectivity to [GDAX](https://gdax.com).
 
-
-Features
---------
+## Features
 
 Philadelphia GDAX implements the following protocol:
 
@@ -15,9 +12,7 @@ See the [developer documentation][] at GDAX for the protocol specification.
 
   [developer documentation]: https://docs.gdax.com
 
-
-Download
---------
+## Download
 
 Add a Maven dependency to Philadelphia GDAX:
 
@@ -27,8 +22,6 @@ Add a Maven dependency to Philadelphia GDAX:
       <version><!-- latest version --></version>
     </dependency>
 
-
-License
--------
+## License
 
 Released under the Apache License, Version 2.0.
