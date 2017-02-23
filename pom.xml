@@ -46,7 +46,7 @@
 
   <modules>
     <module>libraries/gdax</module>
-    <module>philadelphia-hotspot</module>
+    <module>libraries/hotspot</module>
     <module>philadelphia-iex</module>
   </modules>
 
