@@ -1,7 +1,7 @@
 package com.paritytrading.philadelphia.hotspot;
 
 /**
- * Enumerations for Bats Hotspot FIX Proxy 4.0.
+ * Enumerations for Hotspot FIX Proxy 4.0.
  */
 public class HotspotEnumerations {
 

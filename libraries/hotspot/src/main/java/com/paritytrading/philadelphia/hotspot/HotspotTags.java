@@ -1,7 +1,7 @@
 package com.paritytrading.philadelphia.hotspot;
 
 /**
- * Tags for Bats Hotspot FIX Proxy 4.0.
+ * Tags for Hotspot FIX Proxy 4.0.
  */
 public class HotspotTags {
 

@@ -1,16 +1,16 @@
 # Philadelphia Hotspot
 
-Philadelphia Hotspot implements connectivity to [Bats Hotspot][].
+Philadelphia Hotspot implements connectivity to [Hotspot][].
 
-  [Bats Hotspot]: http://hotspotfx.com
+  [Hotspot]: http://hotspotfx.com
 
 ## Features
 
 Philadelphia Hotspot implements the following protocol:
 
-- **Bats Hotspot FIX Proxy 4.0** (based on **FIX 4.2**)
+- **Hotspot FIX Proxy 4.0** (based on **FIX 4.2**)
 
-See the [documentation][] at Bats Hotspot for the protocol specification.
+See the [documentation][] at Hotspot for the protocol specification.
 
   [documentation]: http://hotspotfx.com/technology/apifix.jsp
 
