@@ -1,5 +1,9 @@
 # Release Notes
 
+## 0.4.0 (2017-08-13)
+
+- Upgrade to Philadelphia 0.6.0
+
 ## 0.3.0 (2017-02-23)
 
 - Add GDAX FIX API
