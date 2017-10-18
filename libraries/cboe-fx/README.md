@@ -1,18 +1,18 @@
-# Philadelphia Hotspot
+# Philadelphia Cboe FX
 
-Philadelphia Hotspot implements connectivity to [Hotspot][].
+Philadelphia Cboe FX implements connectivity to [Cboe FX][].
 
-  [Hotspot]: http://hotspotfx.com
+  [Cboe FX]: http://fx.cboe.com
 
 ## Features
 
-Philadelphia Hotspot implements the following protocol:
+Philadelphia Cboe FX implements the following protocol:
 
-- **Hotspot FIX Proxy 4.0** (based on **FIX 4.2**)
+- **Cboe FX FIX Proxy 4.0** (based on **FIX 4.2**)
 
-See the [documentation][] at Hotspot for the protocol specification.
+See the [documentation][] at Cboe FX for the protocol specification.
 
-  [documentation]: http://hotspotfx.com/technology/apifix.jsp
+  [documentation]: http://fx.cboe.com/technology/apifix.jsp
 
 ## Download
 
@@ -21,7 +21,7 @@ Add a Maven dependency to Philadelphia GDAX:
 ```xml
 <dependency>
   <groupId>com.paritytrading.philadelphia</groupId>
-  <artifactId>philadelphia-hotspot</artifactId>
+  <artifactId>philadelphia-cboe-fx</artifactId>
   <version><!-- latest release --></version>
 </dependency>
 ```
