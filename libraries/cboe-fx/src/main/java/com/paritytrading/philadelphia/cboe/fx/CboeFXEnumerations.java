@@ -1,14 +1,14 @@
-package com.paritytrading.philadelphia.hotspot;
+package com.paritytrading.philadelphia.cboe.fx;
 
 /**
- * Enumerations for Hotspot FIX Proxy 4.0.
+ * Enumerations for Cboe FX FIX Proxy 4.0.
  */
-public class HotspotEnumerations {
+public class CboeFXEnumerations {
 
     /**
      * Values for CxlRejReason(102).
      */
-    public static class HotspotCxlRejReasonValues {
+    public static class CboeFXCxlRejReasonValues {
 
         public static final int TooLateToCancel             =  0;
         public static final int UnknownOrder                =  1;
@@ -16,7 +16,7 @@ public class HotspotEnumerations {
         public static final int DuplicateClOrdID            =  6;
         public static final int Other                       = 99;
 
-        private HotspotCxlRejReasonValues() {
+        private CboeFXCxlRejReasonValues() {
         }
 
     }
@@ -24,7 +24,7 @@ public class HotspotEnumerations {
     /**
      * Values for ExecType(150).
      */
-    public static class HotspotExecTypeValues {
+    public static class CboeFXExecTypeValues {
 
         public static final char New                = '0';
         public static final char DoneForDay         = '3';
@@ -38,12 +38,12 @@ public class HotspotEnumerations {
         public static final char Trade              = 'F';
         public static final char Status             = 'I';
 
-        private HotspotExecTypeValues() {
+        private CboeFXExecTypeValues() {
         }
 
     }
 
-    private HotspotEnumerations() {
+    private CboeFXEnumerations() {
     }
 
 }

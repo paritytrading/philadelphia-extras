@@ -10,8 +10,8 @@
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
-  <artifactId>philadelphia-hotspot</artifactId>
+  <artifactId>philadelphia-cboe-fx</artifactId>
 
-  <name>Philadelphia Hotspot</name>
+  <name>Philadelphia Cboe FX</name>
 
 </project>

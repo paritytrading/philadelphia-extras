@@ -46,8 +46,8 @@
   </properties>
 
   <modules>
+    <module>libraries/cboe-fx</module>
     <module>libraries/gdax</module>
-    <module>libraries/hotspot</module>
     <module>libraries/iex</module>
   </modules>
 
