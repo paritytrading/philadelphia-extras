@@ -2,8 +2,8 @@
 
 ## 0.5.0 (2017-10-21)
 
-- Upgrade to Cboe FX FIX Proxy 5.1.4
 - Replace Hotspot with Cboe FX
+- Upgrade to Cboe FX FIX Proxy 5.1.4
 
 ## 0.4.0 (2017-08-13)
 
