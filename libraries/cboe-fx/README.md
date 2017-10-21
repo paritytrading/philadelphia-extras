@@ -8,7 +8,7 @@ Philadelphia Cboe FX implements connectivity to [Cboe FX][].
 
 Philadelphia Cboe FX implements the following protocol:
 
-- **Cboe FX FIX Proxy 4.0** (based on **FIX 4.2**)
+- **Cboe FX FIX Proxy 5.1.4** (based on **FIX 4.2** and **FIX 4.4**)
 
 See the [documentation][] at Cboe FX for the protocol specification.
 
