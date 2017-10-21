@@ -1,9 +1,30 @@
 package com.paritytrading.philadelphia.cboe.fx;
 
 /**
- * Enumerations for Cboe FX FIX Proxy 4.0.
+ * Enumerations for Cboe FX FIX Proxy 5.1.4.
  */
 public class CboeFXEnumerations {
+
+    /**
+     * Values for OrdStatus(39).
+     */
+    public static class CboeFXOrdStatusValues {
+
+        public static final char New             = '0';
+        public static final char PartiallyFilled = '1';
+        public static final char Filled          = '2';
+        public static final char AverageTrade    = '3';
+        public static final char Canceled        = '4';
+        public static final char Replaced        = '5';
+        public static final char PendingCancel   = '6';
+        public static final char Rejected        = '8';
+        public static final char Expired         = 'C';
+        public static final char PendingReplace  = 'E';
+
+        private CboeFXOrdStatusValues() {
+        }
+
+    }
 
     /**
      * Values for CxlRejReason(102).
@@ -39,6 +60,19 @@ public class CboeFXEnumerations {
         public static final char Status             = 'I';
 
         private CboeFXExecTypeValues() {
+        }
+
+    }
+
+    /**
+     * Values for ClienType(6999).
+     */
+    public static class CboeFXClientTypeValues {
+
+        public static final int GUI = 1;
+        public static final int API = 2;
+
+        private CboeFXClientTypeValues() {
         }
 
     }
