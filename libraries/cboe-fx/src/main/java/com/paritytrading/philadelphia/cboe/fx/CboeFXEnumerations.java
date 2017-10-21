@@ -65,7 +65,7 @@ public class CboeFXEnumerations {
     }
 
     /**
-     * Values for ClienType(6999).
+     * Values for ClientType(6999).
      */
     public static class CboeFXClientTypeValues {
 
