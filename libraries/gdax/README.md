@@ -12,6 +12,13 @@ See the [developer documentation][] at GDAX for the protocol specification.
 
   [developer documentation]: https://docs.gdax.com
 
+## Dependencies
+
+Philadelphia GDAX depends on the following libraries:
+
+- Philadelphia Core 0.6.1
+- Philadelphia FIX 4.2 0.6.1
+
 ## Download
 
 Add a Maven dependency to Philadelphia GDAX:
