@@ -1,15 +1,15 @@
-package com.paritytrading.philadelphia.gdax;
+package com.paritytrading.philadelphia.coinbase;
 
+import static com.paritytrading.philadelphia.coinbase.CoinbaseTags.*;
 import static com.paritytrading.philadelphia.fix42.FIX42Enumerations.*;
 import static com.paritytrading.philadelphia.fix42.FIX42Tags.*;
-import static com.paritytrading.philadelphia.gdax.GDAXTags.*;
 import static org.junit.Assert.*;
 
 import com.paritytrading.philadelphia.FIXMessage;
 import org.junit.Before;
 import org.junit.Test;
 
-public class GDAXTest {
+public class CoinbaseTest {
 
     @Test
     public void sign() {
@@ -25,7 +25,7 @@ public class GDAXTest {
 
         String secret = "baz";
 
-        GDAX.sign(message, secret);
+        Coinbase.sign(message, secret);
 
         assertNotNull(message.findField(RawData));
     }
