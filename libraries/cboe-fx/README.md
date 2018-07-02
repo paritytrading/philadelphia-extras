@@ -16,7 +16,7 @@ See the [documentation][] at Cboe FX for the protocol specification.
 
 ## Download
 
-Add a Maven dependency to Philadelphia GDAX:
+Add a Maven dependency to Philadelphia Cboe FX:
 
 ```xml
 <dependency>
