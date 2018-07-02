@@ -42,14 +42,14 @@ public class GDAXEnumerations {
     /**
      * Values for SelfTradePrevention(7928).
      */
-    public static class GDAXFIXSelfTradePreventionValues {
+    public static class GDAXSelfTradePreventionValues {
 
         public static final char DecrementAndCancel  = 'D';
         public static final char CancelRestingOrder  = 'O';
         public static final char CancelIncomingOrder = 'N';
         public static final char CancelBothOrders    = 'B';
 
-        private GDAXFIXSelfTradePreventionValues() {
+        private GDAXSelfTradePreventionValues() {
         }
 
     }
