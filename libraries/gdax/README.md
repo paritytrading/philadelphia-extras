@@ -16,8 +16,8 @@ See the [developer documentation][] at GDAX for the protocol specification.
 
 Philadelphia GDAX depends on the following libraries:
 
-- Philadelphia Core 0.6.1
-- Philadelphia FIX 4.2 0.6.1
+- Philadelphia Core 0.7.0
+- Philadelphia FIX 4.2 0.7.0
 
 ## Download
 
