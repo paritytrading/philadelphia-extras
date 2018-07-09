@@ -1,9 +1,9 @@
-package com.paritytrading.philadelphia.gdax;
+package com.paritytrading.philadelphia.coinbase;
 
 /**
- * Tags for GDAX FIX API.
+ * Tags for Coinbase Pro FIX API and Coinbase Prime FIX API.
  */
-public class GDAXTags {
+public class CoinbaseTags {
 
     public static final int Password                 =  554;
     public static final int TradeID                  = 1003;

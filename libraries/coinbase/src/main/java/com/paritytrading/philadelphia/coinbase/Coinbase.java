@@ -1,8 +1,8 @@
-package com.paritytrading.philadelphia.gdax;
+package com.paritytrading.philadelphia.coinbase;
 
+import static com.paritytrading.philadelphia.coinbase.CoinbaseTags.*;
 import static com.paritytrading.philadelphia.fix42.FIX42MsgTypes.*;
 import static com.paritytrading.philadelphia.fix42.FIX42Tags.*;
-import static com.paritytrading.philadelphia.gdax.GDAXTags.*;
 import static java.nio.charset.StandardCharsets.*;
 
 import com.paritytrading.philadelphia.FIXMessage;
@@ -15,13 +15,13 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * Common definitions for GDAX FIX API.
+ * Common definitions for Coinbase Pro FIX API and Coinbase Prime FIX API.
  */
-public class GDAX {
+public class Coinbase {
 
     private static final char SOH = '\u0001';
 
-    private GDAX() {
+    private Coinbase() {
     }
 
     /**

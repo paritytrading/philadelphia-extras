@@ -9,9 +9,9 @@
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
-  <artifactId>philadelphia-gdax</artifactId>
+  <artifactId>philadelphia-coinbase</artifactId>
 
-  <name>Philadelphia GDAX</name>
+  <name>Philadelphia Coinbase</name>
 
   <dependencies>
     <dependency>

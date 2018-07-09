@@ -1,21 +1,21 @@
-package com.paritytrading.philadelphia.gdax;
+package com.paritytrading.philadelphia.coinbase;
 
 /**
- * Enumerations for GDAX FIX API.
+ * Enumerations for Coinbase Pro FIX API and Coinbase Prime FIX API.
  */
-public class GDAXEnumerations {
+public class CoinbaseEnumerations {
 
     /**
      * Values for TimeInForce(59).
      */
-    public static class GDAXTimeInForceValues {
+    public static class CoinbaseTimeInForceValues {
 
         public static final char GoodTillCancel    = '1';
         public static final char ImmediateOrCancel = '3';
         public static final char FillOrKill        = '4';
         public static final char PostOnly          = 'P';
 
-        private GDAXTimeInForceValues() {
+        private CoinbaseTimeInForceValues() {
         }
 
     }
@@ -23,7 +23,7 @@ public class GDAXEnumerations {
     /**
      * Values for ExecType(150).
      */
-    public static class GDAXExecTypeValues {
+    public static class CoinbaseExecTypeValues {
 
         public static final char NewOrder     = '0';
         public static final char Fill         = '1';
@@ -34,7 +34,7 @@ public class GDAXEnumerations {
         public static final char OrderChanged = 'D';
         public static final char OrderStatus  = 'I';
 
-        private GDAXExecTypeValues() {
+        private CoinbaseExecTypeValues() {
         }
 
     }
@@ -42,14 +42,14 @@ public class GDAXEnumerations {
     /**
      * Values for SelfTradePrevention(7928).
      */
-    public static class GDAXSelfTradePreventionValues {
+    public static class CoinbaseSelfTradePreventionValues {
 
         public static final char DecrementAndCancel  = 'D';
         public static final char CancelRestingOrder  = 'O';
         public static final char CancelIncomingOrder = 'N';
         public static final char CancelBothOrders    = 'B';
 
-        private GDAXSelfTradePreventionValues() {
+        private CoinbaseSelfTradePreventionValues() {
         }
 
     }
