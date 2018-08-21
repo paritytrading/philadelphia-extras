@@ -23,8 +23,8 @@ Prime][Prime API] for the protocol specifications.
 
 Philadelphia Coinbase depends on the following libraries:
 
-- Philadelphia Core 0.7.0
-- Philadelphia FIX 4.2 0.7.0
+- Philadelphia Core 1.0.0
+- Philadelphia FIX 4.2 1.0.0
 
 ## Download
 

@@ -64,7 +64,7 @@ public class Coinbase {
     }
 
     private static void appendField(FIXMessage message, int tag, String fieldName, StringBuilder s) {
-        FIXValue value = message.findField(tag);
+        FIXValue value = message.valueOf(tag);
         if (value == null)
             throw new IllegalStateException(fieldName + " not found");
 

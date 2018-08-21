@@ -27,7 +27,7 @@ public class CoinbaseTest {
 
         Coinbase.sign(message, secret);
 
-        assertNotNull(message.findField(RawData));
+        assertNotNull(message.valueOf(RawData));
     }
 
 }
