@@ -7,4 +7,10 @@
   <module name="FileTabCharacter">
     <property name="eachLine" value="true" />
   </module>
+
+  <module name="TreeWalker">
+
+    <!-- No unused imports. -->
+    <module name="UnusedImports" />
+  </module>
 </module>
