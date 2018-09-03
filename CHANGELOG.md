@@ -1,5 +1,10 @@
 # Release Notes
 
+## 1.0.0 (2018-09-03)
+
+- Replace GDAX with Coinbase Pro and Coinbase Prime
+- Upgrade to Philadelphia 1.0.0
+
 ## 0.5.0 (2017-10-21)
 
 - Replace Hotspot with Cboe FX
