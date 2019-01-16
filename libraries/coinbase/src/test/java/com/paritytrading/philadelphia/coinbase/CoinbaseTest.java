@@ -6,7 +6,6 @@ import static com.paritytrading.philadelphia.fix42.FIX42Tags.*;
 import static org.junit.Assert.*;
 
 import com.paritytrading.philadelphia.FIXMessage;
-import org.junit.Before;
 import org.junit.Test;
 
 public class CoinbaseTest {
