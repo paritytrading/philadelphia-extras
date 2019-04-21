@@ -26,8 +26,6 @@ For more information about Philadelphia Extras:
 
 ## License
 
-Copyright 2016 Jussi Virtanen and [contributors][].
-
-  [contributors]: https://github.com/paritytrading/philadelphia-extras/graphs/contributors
+Copyright 2016 Philadelphia authors.
 
 Released under the Apache License, Version 2.0. See `LICENSE.txt` for details.
