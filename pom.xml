@@ -62,7 +62,6 @@
   <modules>
     <module>libraries/cboe-fx</module>
     <module>libraries/coinbase</module>
-    <module>libraries/iex</module>
   </modules>
 
   <dependencyManagement>
