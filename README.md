@@ -13,7 +13,6 @@ Philadelphia Extras implements connectivity to the following trading venues:
 - [**Cboe FX**](libraries/cboe-fx)
 - [**Coinbase Pro**](libraries/coinbase)
 - [**Coinbase Prime**](libraries/coinbase)
-- [**IEX**](libraries/iex)
 
 ## Links
 
