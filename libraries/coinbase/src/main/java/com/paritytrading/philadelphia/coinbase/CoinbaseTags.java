@@ -25,6 +25,7 @@ public class CoinbaseTags {
     public static final int AggressorIndicator       = 1057;
     public static final int SelfTradePrevention      = 7928;
     public static final int CancelOrdersOnDisconnect = 8013;
+    public static final int BatchID                  = 8014;
     public static final int DropCopyFlag             = 9406;
 
 }
