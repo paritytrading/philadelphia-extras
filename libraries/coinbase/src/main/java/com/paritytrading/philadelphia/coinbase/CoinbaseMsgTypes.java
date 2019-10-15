@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Philadelphia authors
+ * Copyright 2019 Philadelphia authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,16 +16,13 @@
 package com.paritytrading.philadelphia.coinbase;
 
 /**
- * Tags for Coinbase Pro FIX API and Coinbase Prime FIX API.
+ * Message types for Coinbase Pro FIX API and Coinbase Prime FIX API.
  */
-public class CoinbaseTags {
+public class CoinbaseMsgTypes {
 
-    public static final int Password                 =  554;
-    public static final int TradeID                  = 1003;
-    public static final int AggressorIndicator       = 1057;
-    public static final int SelfTradePrevention      = 7928;
-    public static final int CancelOrdersOnDisconnect = 8013;
-    public static final int BatchID                  = 8014;
-    public static final int DropCopyFlag             = 9406;
+    public static final String OrderCancelBatchRequest = "U4";
+    public static final String OrderCancelBatchReject  = "U5";
+    public static final String NewOrderBatch           = "U6";
+    public static final String NewOrderBatchReject     = "U7";
 
 }
