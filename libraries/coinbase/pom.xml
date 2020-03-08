@@ -32,10 +32,12 @@
     <dependency>
       <groupId>com.paritytrading.philadelphia</groupId>
       <artifactId>philadelphia-core</artifactId>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.paritytrading.philadelphia</groupId>
       <artifactId>philadelphia-fix42</artifactId>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
