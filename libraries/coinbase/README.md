@@ -23,8 +23,24 @@ Prime][Prime API] for the protocol specifications.
 
 Philadelphia Coinbase depends on the following libraries:
 
-- Philadelphia Core 1.0.0
-- Philadelphia FIX 4.2 1.0.0
+- Philadelphia Core 1.x
+- Philadelphia FIX 4.2 1.x
+
+If you do not already depend on Philadelphia Core 1.x and Philadelphia FIX 4.2
+1.x in your application, add Maven dependencies to them. For example:
+
+```xml
+<dependency>
+  <groupId>com.paritytrading.philadelphia</groupId>
+  <artifactId>philadelphia-core</artifactId>
+  <version>1.2.0</version>
+</dependency>
+<dependency>
+  <groupId>com.paritytrading.philadelphia</groupId>
+  <artifactId>philadelphia-fix42</artifactId>
+  <version>1.2.0</version>
+</dependency>
+```
 
 ## Download
 
