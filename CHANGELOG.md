@@ -1,5 +1,23 @@
 # Release Notes
 
+## 1.1.0 (2020-03-20)
+
+See the [upgrade instructions](UPGRADE-1.1.0.md).
+
+- Remove Philadelphia IEX (Jussi Virtanen)
+
+- Update Philadelphia Coinbase (Jussi Virtanen)
+
+  Add missing message types and tags.
+
+- Clean up `CoinbaseTest` (Jan Nielsen)
+
+- Remove transitive Philadelphia dependency (Jussi Virtanen)
+
+  Replace the transitive Philadelphia 1.0.0 dependency with a Philadelphia
+  1.x dependency. This makes it possible for applications to manage their
+  Philadelphia 1.x and Philadelphia Coinbase dependencies independently.
+
 ## 1.0.0 (2018-09-03)
 
 - Replace GDAX with Coinbase Pro and Coinbase Prime
