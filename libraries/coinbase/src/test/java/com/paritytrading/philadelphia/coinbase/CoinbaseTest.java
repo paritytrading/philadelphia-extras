@@ -18,15 +18,15 @@ package com.paritytrading.philadelphia.coinbase;
 import static com.paritytrading.philadelphia.coinbase.CoinbaseTags.*;
 import static com.paritytrading.philadelphia.fix42.FIX42Enumerations.*;
 import static com.paritytrading.philadelphia.fix42.FIX42Tags.*;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 import com.paritytrading.philadelphia.FIXMessage;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-public class CoinbaseTest {
+class CoinbaseTest {
 
     @Test
-    public void sign() {
+    void sign() {
         FIXMessage message = new FIXMessage(64, 64);
 
         message.addField(SenderCompID).setString("foo");
