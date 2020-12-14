@@ -6,9 +6,7 @@
 
 The following artifacts are available in the Central Repository:
 
-Name                  | Artifact ID             | Version
-----------------------|-------------------------|--------
-Philadelphia Cboe FX  | `philadelphia-cboe-fx`  | `...`
-Philadelphia Coinbase | `philadelphia-coinbase` | `...`
-
-The **Group ID** for all artifacts is `com.paritytrading.philadelphia`.
+Group ID                         | Artifact ID             | Version
+---------------------------------|-------------------------|--------
+`com.paritytrading.philadelphia` | `philadelphia-cboe-fx`  | `...`
+`com.paritytrading.philadelphia` | `philadelphia-coinbase` | `...`
