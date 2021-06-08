@@ -33,12 +33,12 @@ If you do not already depend on Philadelphia Core 1.x and Philadelphia FIX 4.2
 <dependency>
   <groupId>com.paritytrading.philadelphia</groupId>
   <artifactId>philadelphia-core</artifactId>
-  <version>1.2.0</version>
+  <version>1.3.0</version>
 </dependency>
 <dependency>
   <groupId>com.paritytrading.philadelphia</groupId>
   <artifactId>philadelphia-fix42</artifactId>
-  <version>1.2.0</version>
+  <version>1.3.0</version>
 </dependency>
 ```
 
