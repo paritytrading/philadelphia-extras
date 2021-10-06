@@ -40,11 +40,22 @@ public class Coinbase {
     }
 
     /**
-     * Sign a Logon message.
+     * <p>Sign a Logon(A) message. Before calling this method, the following
+     * required fields must already be present in the message:</p>
      *
-     * @param message a Logon message
+     * <ul>
+     *   <li>SendingTime(52)</li>
+     *   <li>MsgSeqNum(34)</li>
+     *   <li>SenderCompID(49)</li>
+     *   <li>TargetCompID(56)</li>
+     *   <li>Password(554)</li>
+     * </ul>
+     *
+     * <p>This method adds a RawData(96) field to the message.</p>
+     *
+     * @param message a Logon(A) message
      * @param secret the secret
-     * @throws IllegalStateException if one or more of the signature tags are
+     * @throws IllegalStateException if one or more of the required fields are
      *   missing
      */
     public static void sign(FIXMessage message, String secret) {
