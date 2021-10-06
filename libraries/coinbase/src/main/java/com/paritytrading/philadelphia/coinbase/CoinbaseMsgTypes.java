@@ -16,7 +16,7 @@
 package com.paritytrading.philadelphia.coinbase;
 
 /**
- * Message types for Coinbase Pro FIX API and Coinbase Prime FIX API.
+ * Message types for Coinbase Pro FIX API.
  */
 public class CoinbaseMsgTypes {
 

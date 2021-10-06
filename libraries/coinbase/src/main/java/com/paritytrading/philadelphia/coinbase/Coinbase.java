@@ -30,7 +30,7 @@ import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * Common definitions for Coinbase Pro FIX API and Coinbase Prime FIX API.
+ * Common definitions for Coinbase Pro FIX API.
  */
 public class Coinbase {
 

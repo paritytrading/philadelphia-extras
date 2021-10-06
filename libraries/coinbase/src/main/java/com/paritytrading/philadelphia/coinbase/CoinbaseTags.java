@@ -16,7 +16,7 @@
 package com.paritytrading.philadelphia.coinbase;
 
 /**
- * Tags for Coinbase Pro FIX API and Coinbase Prime FIX API.
+ * Tags for Coinbase Pro FIX API.
  */
 public class CoinbaseTags {
 
