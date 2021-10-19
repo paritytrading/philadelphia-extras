@@ -1,23 +1,18 @@
 # Philadelphia Coinbase
 
-Philadelphia Coinbase implements connectivity to [Coinbase Pro][] and
-[Coinbase Prime][].
+Philadelphia Coinbase implements connectivity to [Coinbase Pro][].
 
-  [Coinbase Pro]:   https://pro.coinbase.com
-  [Coinbase Prime]: https://prime.coinbase.com
+  [Coinbase Pro]: https://pro.coinbase.com
 
 ## Features
 
 Philadelphia Coinbase implements the following protocols:
 
 - **Coinbase Pro FIX API** (based on **FIX 4.2**)
-- **Coinbase Prime FIX API** (based on **FIX 4.2**)
 
-See the developer documentation at [Coinbase Pro][Pro API] and [Coinbase
-Prime][Prime API] for the protocol specifications.
+See the [documentation][] at Coinbase Pro for the protocol specification.
 
-  [Pro API]:   https://docs.pro.coinbase.com
-  [Prime API]: https://docs.prime.coinbase.com
+  [documentation]: https://docs.pro.coinbase.com
 
 ## Dependencies
 

@@ -16,7 +16,7 @@
 package com.paritytrading.philadelphia.coinbase;
 
 /**
- * Enumerations for Coinbase Pro FIX API and Coinbase Prime FIX API.
+ * Enumerations for Coinbase Pro FIX API.
  */
 public class CoinbaseEnumerations {
 
