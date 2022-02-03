@@ -25,4 +25,7 @@ public class CoinbaseMsgTypes {
     public static final String NewOrderBatch           = "U6";
     public static final String NewOrderBatchReject     = "U7";
 
+    private CoinbaseMsgTypes() {
+    }
+
 }

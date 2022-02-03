@@ -28,4 +28,7 @@ public class CoinbaseTags {
     public static final int BatchID                  = 8014;
     public static final int DropCopyFlag             = 9406;
 
+    private CoinbaseTags() {
+    }
+
 }

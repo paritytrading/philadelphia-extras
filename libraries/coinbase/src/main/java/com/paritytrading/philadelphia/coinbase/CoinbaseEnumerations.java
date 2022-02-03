@@ -69,4 +69,7 @@ public class CoinbaseEnumerations {
 
     }
 
+    private CoinbaseEnumerations() {
+    }
+
 }
