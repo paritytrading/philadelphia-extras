@@ -6,7 +6,7 @@ Philadelphia Coinbase implements connectivity to [Coinbase Pro][].
 
 ## Features
 
-Philadelphia Coinbase implements the following protocols:
+Philadelphia Coinbase implements the following protocol:
 
 - **Coinbase Pro FIX API** (based on **FIX 4.2**)
 
