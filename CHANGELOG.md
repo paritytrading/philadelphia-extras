@@ -1,5 +1,13 @@
 # Release Notes
 
+## 1.2.0 (2022-02-09)
+
+- Clean up project documentation (Jussi Virtanen)
+
+- Clean up Philadelphia Coinbase (Jussi Virtanen)
+
+- Add Philadelphia FTX (Jussi Virtanen)
+
 ## 1.1.0 (2020-03-20)
 
 See the [upgrade instructions](UPGRADE-1.1.0.md).
