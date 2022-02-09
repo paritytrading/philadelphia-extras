@@ -6,7 +6,7 @@ Philadelphia FTX implements connectivity to [FTX][].
 
 ## Features
 
-Philadelphia FTX implements the following protocols:
+Philadelphia FTX implements the following protocol:
 
 - **FTX FIX API** (based on **FIX 4.2**)
 
