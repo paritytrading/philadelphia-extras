@@ -10,3 +10,4 @@ Group ID                         | Artifact ID             | Version
 ---------------------------------|-------------------------|--------
 `com.paritytrading.philadelphia` | `philadelphia-cboe-fx`  | `...`
 `com.paritytrading.philadelphia` | `philadelphia-coinbase` | `...`
+`com.paritytrading.philadelphia` | `philadelphia-ftx`      | `...`
