@@ -1,6 +1,7 @@
 # Philadelphia Extras
 
-Philadelphia Extras contains additional FIX dialects for [Philadelphia][].
+Philadelphia Extras contains extensions to [Philadelphia][], the fast Financial
+Information Exchange (FIX) protocol library for the JVM.
 
   [Philadelphia]: https://github.com/paritytrading/philadelphia
 
@@ -16,7 +17,7 @@ Philadelphia Extras implements connectivity to the following trading venues:
 
 ## Links
 
-For more information about Philadelphia Extras:
+For more information on Philadelphia Extras:
 
 - Follow [@paritytrading](https://twitter.com/paritytrading) on Twitter for
   news and announcements
