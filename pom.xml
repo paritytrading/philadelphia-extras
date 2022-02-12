@@ -29,7 +29,7 @@
   <packaging>pom</packaging>
 
   <name>Philadelphia Extras (Parent)</name>
-  <description>Additional FIX dialects for Philadelphia.</description>
+  <description>Extensions to Philadelphia.</description>
   <url>https://github.com/paritytrading/philadelphia-extras</url>
 
   <licenses>
