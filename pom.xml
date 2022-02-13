@@ -60,7 +60,6 @@
   </properties>
 
   <modules>
-    <module>libraries/cboe-fx</module>
     <module>libraries/coinbase</module>
     <module>libraries/ftx</module>
   </modules>

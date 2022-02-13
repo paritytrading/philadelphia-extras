@@ -11,7 +11,6 @@ Philadelphia Extras requires Java Runtime Environment (JRE) 8 or newer.
 
 Philadelphia Extras implements connectivity to the following trading venues:
 
-- [**Cboe FX**](libraries/cboe-fx)
 - [**Coinbase Pro**](libraries/coinbase)
 - [**FTX**](libraries/ftx)
 
