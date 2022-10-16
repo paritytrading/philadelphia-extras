@@ -115,6 +115,7 @@
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>3.4.1</version>
           <configuration>
+            <doclint>all,-missing</doclint>
             <failOnWarnings>true</failOnWarnings>
             <source>${java.version}</source>
           </configuration>
