@@ -18,22 +18,22 @@ See the [documentation][] at FTX for the protocol specification.
 
 Philadelphia FTX depends on the following libraries:
 
-- Philadelphia Core 1.x
-- Philadelphia FIX 4.2 1.x
+- Philadelphia Core 2.x
+- Philadelphia FIX 4.2 2.x
 
-If you do not already depend on Philadelphia Core 1.x and Philadelphia FIX 4.2
-1.x in your application, add Maven dependencies to them. For example:
+If you do not already depend on Philadelphia Core 2.x and Philadelphia FIX 4.2
+2.x in your application, add Maven dependencies to them. For example:
 
 ```xml
 <dependency>
   <groupId>com.paritytrading.philadelphia</groupId>
   <artifactId>philadelphia-core</artifactId>
-  <version>1.3.1</version>
+  <version>2.0.0</version>
 </dependency>
 <dependency>
   <groupId>com.paritytrading.philadelphia</groupId>
   <artifactId>philadelphia-fix42</artifactId>
-  <version>1.3.1</version>
+  <version>2.0.0</version>
 </dependency>
 ```
 

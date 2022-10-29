@@ -93,7 +93,7 @@ public class FTX {
         if (value == null)
             throw new IllegalStateException(fieldName + " not found");
 
-        value.asString(s);
+        s.append(value);
     }
 
     private static String toHexString(byte[] bytes) {
