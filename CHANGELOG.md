@@ -1,5 +1,13 @@
 # Release Notes
 
+## 2.0.0 (2022-10-29)
+
+- Remove Cboe FX support (Jussi Virtanen)
+
+  The Cboe FX API documentation is no longer publicly available.
+
+- Upgrade to Philadelphia 2.0.0 (Jussi Virtanen)
+
 ## 1.2.0 (2022-02-09)
 
 - Clean up project documentation (Jussi Virtanen)
