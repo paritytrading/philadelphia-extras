@@ -62,7 +62,6 @@
 
   <modules>
     <module>libraries/coinbase</module>
-    <module>libraries/ftx</module>
   </modules>
 
   <dependencyManagement>
