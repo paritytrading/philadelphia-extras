@@ -9,4 +9,3 @@ The following artifacts are available in the Central Repository:
 Group ID                         | Artifact ID             | Version
 ---------------------------------|-------------------------|--------
 `com.paritytrading.philadelphia` | `philadelphia-coinbase` | `...`
-`com.paritytrading.philadelphia` | `philadelphia-ftx`      | `...`
