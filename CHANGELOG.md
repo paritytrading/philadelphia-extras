@@ -2,6 +2,8 @@
 
 ## 2.1.0 (????-??-??)
 
+See the [upgrade instructions](UPGRADE-2.1.0.md).
+
 - Specify Java module names (Jussi Virtanen)
 
   Introduce minimal Java module support by specifying module names for all
