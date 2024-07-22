@@ -173,7 +173,7 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <configuration>
           <links>
-            <link>http://api.paritytrading.com/philadelphia/latest/</link>
+            <link>https://api.paritytrading.com/philadelphia/latest/</link>
           </links>
         </configuration>
       </plugin>
