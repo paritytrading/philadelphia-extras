@@ -5,7 +5,7 @@ Information Exchange (FIX) protocol library for the JVM.
 
   [Philadelphia]: https://github.com/paritytrading/philadelphia
 
-Philadelphia Extras requires Java Runtime Environment (JRE) 8 or newer.
+Philadelphia Extras requires Java Runtime Environment (JRE) 11 or newer.
 
 ## Features
 
