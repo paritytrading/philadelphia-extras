@@ -3,7 +3,9 @@ updates:
   - package-ecosystem: 'maven'
     directory: '/'
     schedule:
-      interval: 'daily'
+      interval: 'weekly'
+    cooldown:
+      default-days: 14
     ignore:
       - dependency-name: 'com.paritytrading.philadelphia:*'
         update-types: ['version-update:semver-major']
@@ -15,3 +17,5 @@ updates:
     directory: '/'
     schedule:
       interval: 'weekly'
+    cooldown:
+      default-days: 14
